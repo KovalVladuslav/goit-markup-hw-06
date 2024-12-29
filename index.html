@@ -46,6 +46,11 @@
             <li><a href="" class="navigate-link">Contacts</a></li>
           </ul>
         </nav>
+        <button class="burger-menu-btn">
+          <svg class="" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons"></use>
+          </svg>
+        </button>
         <address class="address">
           <ul class="address-link-list">
             <li>
@@ -86,6 +91,7 @@
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
+              <h2 class="sub-title">Strategy</h2>
               <h3 class="services-list-title">Strategy</h3>
               <p class="services-list-text">
                 Our goal is to identify the business problem to walk away with
@@ -98,6 +104,7 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
+              <h2 class="sub-title">Punctuality</h2>
               <h3 class="services-list-title">Punctuality</h3>
               <p class="services-list-text">
                 Bring the key message to the brand's audience for the best price
@@ -110,6 +117,7 @@
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
+              <h2 class="sub-title">Diligence</h2>
               <h3 class="services-list-title">Diligence</h3>
               <p class="services-list-text">
                 Research and confirm brands that present the strongest digital
@@ -122,6 +130,7 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
+              <h2 class="sub-title">Technologies</h2>
               <h3 class="services-list-title">Technologies</h3>
               <p class="services-list-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -459,7 +468,7 @@
           </p>
         </div>
 
-        <div>
+        <div class="footer-social">
           <p class="footer-social-title">Social media</p>
           <ul class="footer-social-list">
             <li class="footer-social-list-item">
@@ -520,9 +529,80 @@
       </div>
     </footer>
 
+    <!-- mobile menu -->
+    <!-- is-open add class -->
+    <div class="mobile-menu">
+      <button class="close-btn" type="button">
+        <svg class="close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-nav-list">
+          <li>
+            <h2 class="sub-title">Studio</h2>
+          </li>
+          <li>
+            <h2 class="sub-title">Portfolio</h2>
+          </li>
+          <li>
+            <h2 class="sub-title">Contacts</h2>
+          </li>
+        </ul>
+      </nav>
+      <address class="mobile-menu-address">
+        <ul>
+          <li>
+            <a class="address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li>
+            <a
+              class="address-link"
+              href="mailto:info@devstudio.com"
+              target="_blank"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+      </address>
+
+      <ul class="mobile-menu-social-list">
+        <li class="mobile-menu-social-list-item">
+          <a href="" class="social-link">
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-list-item">
+          <a href="" class="social-link">
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-list-item">
+          <a href="" class="social-link">
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-list-item">
+          <a href="" class="social-link">
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
     <!-- modal -->
     <!-- is-open add class -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg class="close-icon" width="8" height="8">
@@ -609,13 +689,15 @@
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a
-                class="agreement-link"
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                >Privacy Policy</a
+              <span
+                >I accept the terms and conditions of the
+                <a
+                  class="agreement-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Privacy Policy</a
+                ></span
               >
             </label>
           </div>
